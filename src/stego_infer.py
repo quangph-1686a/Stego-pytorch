@@ -11,7 +11,7 @@ import torch
 IMG_TEST = '../test_data/image/5.jpg'
 AUDIO_TEST = '../test_data/audio/6.wav'
 OUT_PATH = '../outputs/encode.png'
-STEGO_MODEL = '../pre-trained/encoder.pt'
+STEGO_MODEL = '../pre-trained/encoder_96.pt'
 
 
 def stego_inference(img_path, audio_path, output_path, model):
