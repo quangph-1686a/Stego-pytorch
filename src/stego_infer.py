@@ -9,9 +9,9 @@ from utils import load_audio_stft
 import torch
 
 IMG_TEST = '../test_data/image/5.jpg'
-AUDIO_TEST = '../test_data/audio/6.wav'
+AUDIO_TEST = '../test_data/audio/10.wav'
 OUT_PATH = '../outputs/encode.png'
-STEGO_MODEL = '../pre-trained/encoder_96.pt'
+STEGO_MODEL = '../pre-trained2/encoder_40.pt'
 
 
 def stego_inference(img_path, audio_path, output_path, model):

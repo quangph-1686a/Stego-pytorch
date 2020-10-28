@@ -35,8 +35,8 @@ def train():
     valid_dataloader = DataLoader(valid_dataset, batch_size=BATCH_SIZE,
                                   shuffle=True)
 
-    loss_func1 = nn.MSELoss(reduction='mean')
-    loss_func2 = nn.MSELoss(reduction='mean')
+    loss_func1 = nn.SmoothL1Loss(reduction='mean')
+    loss_func2 = nn.SmoothL1Loss(reduction='mean')
     print(stego_model)
 
     optimizer = Adam(stego_model.parameters(), lr=LR)

@@ -11,7 +11,7 @@ import torch
 
 IN_PATH = '../outputs/encode.png'
 OUT_PATH = '../outputs/decode.wav'
-REVEALING_MODEL = '../pre-trained/decoder_96.pt'
+REVEALING_MODEL = '../pre-trained2/decoder_40.pt'
 
 
 def revealing_inference(img_path, output_path, model):
